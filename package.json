@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "setup-env": "python -m venv venv",
+    "activate-env-windows": "./venv/Scripts/Activate.ps1",
+    "install-deps": "pip install -r ./requirements.txt",
+    "save-deps": "pip freeze > ./requirements.txt",
+    "build": "python ./setup.py install",
+    "rebuild": "del .\\venv\\Lib\\site-packages\\QuantPy-0.1-py3.12.egg && yarn build",
+    "start": "python ./examples/efficient_frontier_plot_ex.py"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

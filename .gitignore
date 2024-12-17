@@ -1,8 +1,10 @@
 *pyc
 *swp
 docs/_build
-build
+build/
 .idea/
 .project
 .pydevproject
-
+venv/
+QuantPy.egg-info/
+dist/
